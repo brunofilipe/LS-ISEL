@@ -1,0 +1,212 @@
+	<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>
+	LS - AcademicActivities
+</title>
+
+<meta charset='UTF-8'>
+</meta>
+
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+</head>
+
+<body>
+
+<div class='container'>
+
+<h3>
+	Existing courses :  
+</h3>
+
+<table border='1' class='table'>
+
+<thead>
+
+<tr>
+
+<th>
+	Name
+</th>
+
+<th>
+	Acronym
+</th>
+
+<th>
+	Coordinator ID
+</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>
+	Ambientes Virtuais de Execucao
+</td>
+
+<td>
+
+<a href='/courses/AVE'>
+	AVE
+</a>
+</td>
+
+<td>
+	2
+</td>
+</tr>
+
+<tr>
+
+<td>
+	Laboratorio de Software
+</td>
+
+<td>
+
+<a href='/courses/LS'>
+	LS
+</a>
+</td>
+
+<td>
+	1
+</td>
+</tr>
+
+<tr>
+
+<td>
+	Matematica 1
+</td>
+
+<td>
+
+<a href='/courses/M1'>
+	M1
+</a>
+</td>
+
+<td>
+	3
+</td>
+</tr>
+
+<tr>
+
+<td>
+	Programacao Internet
+</td>
+
+<td>
+
+<a href='/courses/PI'>
+	PI
+</a>
+</td>
+
+<td>
+	2
+</td>
+</tr>
+
+<tr>
+
+<td>
+	Redes de Computadores
+</td>
+
+<td>
+
+<a href='/courses/RCP'>
+	RCP
+</a>
+</td>
+
+<td>
+	4
+</td>
+</tr>
+
+<tr>
+
+<td>
+	Sistemas de Gestao
+</td>
+
+<td>
+
+<a href='/courses/SG'>
+	SG
+</a>
+</td>
+
+<td>
+	3
+</td>
+</tr>
+</tbody>
+</table>
+	<br>
+
+<form method='POST' action='/courses' class='form-inline'>
+
+<fieldset>
+
+<legend>
+	Insert a new Course
+</legend>
+	Name
+	<br>
+
+<div class='form-group'>
+
+<input name='name' type='text' class='form-control'>
+</input>
+</div>
+	<br>
+	Acronym
+	<br>
+
+<div class='form-group'>
+
+<input name='acr' type='text' class='form-control'>
+</input>
+</div>
+	<br>
+	Coordinator ID
+	<br>
+
+<div class='form-group'>
+
+<input name='teacher' type='number' class='form-control'>
+</input>
+</div>
+	<br>
+	<br>
+
+<div class='form-group'>
+
+<input type='submit' value='submit' class='form-control'>
+</input>
+</div>
+</fieldset>
+</form>
+	<br>
+
+<p>
+	Return to the 
+
+<a href='/'>
+	Homepage
+</a>
+</p>
+</div>
+</body>
+</html>
